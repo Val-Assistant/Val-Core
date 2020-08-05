@@ -1,0 +1,12 @@
+main {
+    background-image: url(https://image.freepik.com/vetores-gratis/fundo-azul-moderno_1035-8846.jpg);
+    height: 300px;
+}
+
+p, a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 2em;
+    color: black;
+}
+

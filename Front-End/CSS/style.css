@@ -1,0 +1,74 @@
+#name {
+    width: 800px;
+    height: 50px;
+    margin-top: 7em;
+    border-radius: 10px;
+}
+
+#titulo {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.div {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+}
+
+#but{
+    margin-top: 1em;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.header {
+    background-image: url(https://image.freepik.com/vetores-gratis/fundo-azul-moderno_1035-8846.jpg);
+}
+
+header {
+    position: fixed;
+    background-color: darkblue;
+    width: 17%;
+    height: 120px;
+    border-radius: 10px;
+}
+
+a {
+    list-style: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+p, h1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 3em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    padding-bottom: 2em;
+}
+
+
+.head {
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
