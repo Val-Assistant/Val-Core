@@ -1,0 +1,7 @@
+### ATENÇÃO ###
+Por conta de incompatibilidades com as versões 3.7 e 3.8, o 
+Python deve ser instalado em sua versão 3.6
+Segue o link para dowload:
+https://www.python.org/downloads/
+Faça o scroll para baixo e clique em "Baixar" na coluno onde estará escrito Python 3.6
+No setup, clique no final na opção "adicionar ao path" e seu python estará configurado para uso pelo cmd.
