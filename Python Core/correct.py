@@ -32,3 +32,4 @@ def avalia(fatias):
 def separa_true(palavra):
     palavra = separa(palavra)
     return palavra[0]
+

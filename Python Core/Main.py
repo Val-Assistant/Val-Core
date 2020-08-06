@@ -2,7 +2,7 @@
 
 MIT License
 
-Copyright (c) 2020 Cauê Alves
+Copyright (c) 2020 Val
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
 (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute,
@@ -18,7 +18,7 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 
 """
 
-import random, re, conv, conversor, imc, agenda, piada, renom, audio, web, grafico, json_conv, os_file
+import random, re, audio, json_conv, web
 import is_in
 from datetime import datetime
 src = open('nome.csv', mode='a')
@@ -60,6 +60,7 @@ while contador == 0:
     respost = json_conv.carrega_json("input")
 
     if dia_da_semana in dias_da_semana:
+        import agenda
         if is_in.str("agenda", respost):
             agenda.agenda(respost, dia_da_semana)
     elif is_in.str(dia_da_semana, find):
@@ -68,12 +69,15 @@ while contador == 0:
         print("Dia não encontrado")
 
     if is_in.str("PIADA", respost) or is_in.str("PIADAS", respost):
+        import piada
         piada.piada()
 
     elif is_in.str("CALCULADORA", respost) or is_in.str("CALCULAR", respost) or not is_in.str("CALCULADORA", respost) or not is_in.str("CALCULAR", respost):
+        import conv
         conv.calc(respost)
 
     elif is_in.str("IMC", respost):
+        import imc
         imc.f(respost)
 
     elif is_in.str("ALARME", respost):
@@ -96,8 +100,10 @@ while contador == 0:
         break
 
     if is_in.str("CONVERSOR",respost):
+        import conversor
         conversor.conve()
     if is_in.str("RENOMEAR", respost):
+        import renom
         renom.renomear(respost)
 
     if is_in.str("NOTÍCIA", respost):
@@ -111,15 +117,17 @@ while contador == 0:
         contador = 0
 
     if is_in.str("ADICIONE", respost):
+        import grafico
         grafico.adiciona_nota()
 
     if is_in.str("GRÁFICO", respost):
+        import grafico
         grafico.grafico()
 
     if is_in.str("CASOS DE COVID", respost):
         web.covid_cases()
 
-    if is_in.str("BUSQUE", respost) and not is_in.str("DICIONÁRIO", respost) and not is_in.str("WIKI") and not is_in.str("STACK"):
+    if is_in.str("BUSQUE", respost) and not is_in.str("DICIONÁRIO", respost) and not is_in.str("WIKI", respost) and not is_in.str("STACK", respost) and not is_in.str("YOUTUBE", respost):
         web.google(respost)
 
     if is_in.str("DICIONÁRIO", respost):
@@ -129,11 +137,14 @@ while contador == 0:
         web.wiki(respost)
 
     if is_in.str("CRIE", respost) and is_in.str("PASTA", respost):
+        import os_file
         os_file.mkd(respost)
 
     if is_in.str("STACK", respost) and is_in.str("OVERFLOW", respost):
         web.stack(respost)
 
+    if is_in.str("YOUTUBE", respost):
+        web.youtube(respost)
 
 
 

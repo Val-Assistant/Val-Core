@@ -59,3 +59,9 @@ def stack(respost):
     index = respost1.find("FLOW")
     termo = respost[index + 4 : ]
     cr.open_new_tab(f'https://pt.stackoverflow.com/questions/tagged/{termo}')
+
+def youtube(respost):
+    r1 = respost.upper()
+    index = r1.find("TUBE")
+    termo = respost[index + 4 : ]
+    cr.open_new_tab(f"https://www.youtube.com/results?search_query={termo}")
