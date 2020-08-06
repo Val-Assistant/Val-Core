@@ -11,6 +11,7 @@
         $inputClass->CreateValue($input);
     } catch (Exception $inputClass) {
         echo "Falha na criação do arquivo JSON";
+    
     }
 
 ?>
@@ -24,5 +25,5 @@
     <main>
         <?php echo "<p>Você respondeu $input<p>"?>
         <ul>
-            <li><a href=http://localhost/Main.php>Clique aqui para voltar à tela inicial</a></li>
+            <li><a href=http://localhost:8000/Main.php>Clique aqui para voltar à tela inicial</a></li>
     </main>
