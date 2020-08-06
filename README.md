@@ -1,9 +1,9 @@
 # Val
-![](https://img.shields.io/github/license/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/license/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/v/tag/caue-alves/Val-Assistente-Pessoal)
 ![](https://img.shields.io/github/languages/top/caue-alves/Val-Assistente-Pessoal)
-![](https://img.shields.io/github/contributors/caue-alves/Val-Assistente-Pessoal)
-![](https://img.shields.io/github/languages/code-size/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
+![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core)
 
 Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP. 
 <img src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=600px width=600px>
