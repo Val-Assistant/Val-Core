@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Val
+![](https://img.shields.io/github/license/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/v/tag/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/languages/top/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/contributors/caue-alves/Val-Assistente-Pessoal)
+![](https://img.shields.io/github/languages/code-size/caue-alves/Val-Assistente-Pessoal)
 
-You can use the [editor on GitHub](https://github.com/Val-Assistant/Val-Core/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP. 
+<img src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=600px width=600px>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Observações:
+A atual versão 1.0.1.3 está em fase de pós-testes, portanto, Tome cuidado ao usá-la.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Preparar ambiente
+Para rodar a assitente, instale em sua máquina através do cmd ou execute o arquivo Setup.bat:
 ```
+pip install speech_recognition
+pip install os
+pip install pyaudio
+pip install gtts
+pip install playsound
+pip install matplotlib
+pip install requests
+pip install numpy
+pip install bs4
+pip install webbrowser
+```
+# Python e PHP
+Para usá-la, você precisa do Python na versão 3.6 especificamente e o PHP na versão 5 para cima.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Como usá-la
+Para usá-la é muito simples: Clique no já instalado arquivo Start.bat e a inicie. Você apenas responde à suas perguntas naturalmente.
 
-### Jekyll Themes
+# Código
+Crie uma pasta com todos os arquivos e entre na pasta através do console. O Python conseguirá importar todas as funções apenas se estiverem em uma pasta
+Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo nome.txt e ela o perguntará seu nome novamente.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Val-Assistant/Val-Core/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Funcões
+Atualmente, em sua versão 1.0.1.3, ela contém:
+- Agenda;
+- Calculadora;
+- Calculadora de IMC;
+- Feed de notícias;
+- Piadas;
+- Fala de acordo com a biblioteca Speech;
+- Roda no Python 3.6;
+- Nome customizável; 
+- Gráfico de Notas customizável;
+- Casos de Covid em tempo real;
+- Busca por termos no Google;
+- Criação de Pastas;
+- Buscas no dicionário.
 
-### Support or Contact
+# Notas
+- A assitente tem foco no aprendizado em Python então, por favor, me critique;
+- Seu uso para fins não lucrativos é liberado a todos, portanto para mais informações acesse o arquivo [LICENSE](https://github.com/caue-alves/Assitente-Pessoal/blob/master/LICENSE.md);
+- Novas atualizações virão em breve com uma interface visual e muito mais funções ;)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Bibliotecas
+A assistente utiliza as bibliotecas:
+- [Re](https://docs.python.org/3.6/library/re.html);
+- [Random](https://docs.python.org/3.6/library/random.html?highlight=random#module-random);
+- [OpenWeather](https://openweathermap.org/guide);
+- [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples);
+- [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+
