@@ -62,3 +62,19 @@ A assistente utiliza as bibliotecas:
 - [OpenWeather](https://openweathermap.org/guide);
 - [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples);
 - [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+
+# Objetivos
+- [x] Começar a interface visual;
+- [x] Aperfeiçoar a interface com uma aparência de chat;
+- [ ] Incorporar o input por voz do usuário;
+- [ ] Desenvolver uma app mobile;
+- [ ] Rodar o Python na nuvem.
+
+# Linguagens
+A assistente é gravada em:
+- Python;
+- PHP;
+- HTML;
+- Batch;
+- CSS;
+- Javascript.
