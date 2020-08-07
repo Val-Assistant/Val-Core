@@ -20,7 +20,7 @@ try {
         <meta charset="UTF-8">
     </head>
     <header>
-        <img class="head" src="https://github.com/caue-alves/Val-Assistente-Pessoal/raw/master/Front-End/pic/20200805_142610.jpg?raw=true" href="home.html">
+        <img class="head" src="https://github.com/Val-Assistant/Val-Core/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" href="home.html">
         <li><a href = "https://github.com/caue-alves/Assitente-Pessoal">Repositório no GitHub</a></li>
         <li><a href = "home.html">Home</a></li>
         <li><a href = "Main.php">Assitente</a></li>
@@ -28,11 +28,15 @@ try {
     </header>
     <main>
         <div class = "all-content">
-            <nav class = msg>
+            <nav class = msg id="msg">
                 <?php echo "<p id=titulo >$Json_val</p>"?>
+                <div class="return">
+                    
+                </div>
             </nav>
             <div class = "div">
-                <form action="text.php" method=get>
+                <iframe name="input" style="display:none;"></iframe>
+                <form action="text.php" method=get target="input">
                     <input type=text name=nome id="name" placeholder="Digite aqui seu comando:"><br>
                     <input type=submit id="but" onclick="capturar()">
                 </form>
