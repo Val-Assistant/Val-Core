@@ -27,11 +27,10 @@ try {
         <script src="Main.js"></script>
     </header>
     <main>
-        <div class = "all-content">
+        <div class = "all-content" >
             <nav class = msg id="msg">
                 <?php echo "<p id=titulo >$Json_val</p>"?>
-                <div class="return">
-                    
+                <div class="return">  
                 </div>
             </nav>
             <div class = "div">
