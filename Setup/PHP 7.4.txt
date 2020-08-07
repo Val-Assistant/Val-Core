@@ -1,4 +1,0 @@
-Para instalar o PHP vá para o link https://www.php.net/downloads.php
-e baixe o arquivo de acordo com seu sistema. Se estiver no mac ou no LInux,
-Instale algum dos arquivos de cima, caso estiver no windows, vá em Windows e
-instale o arquivo adequado.
