@@ -8,7 +8,7 @@ Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Py
 <img class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=600px width=600px>
 
 # Observações:
-A atual versão 1.0.1.3 está em fase de pós-testes, portanto, Tome cuidado ao usá-la.
+A atual versão já é estável.
 
 # Preparar ambiente
 Para rodar a assitente, instale em sua máquina através do cmd ou execute o arquivo Setup.bat:
@@ -35,7 +35,7 @@ Crie uma pasta com todos os arquivos e entre na pasta através do console. O Pyt
 Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo nome.txt e ela o perguntará seu nome novamente.
 
 # Funcões
-Atualmente, em sua versão 1.0.1.3, ela contém:
+Atualmente, em sua versão 2.0.0.0, ela contém:
 - Agenda;
 - Calculadora;
 - Calculadora de IMC;
@@ -48,7 +48,8 @@ Atualmente, em sua versão 1.0.1.3, ela contém:
 - Casos de Covid em tempo real;
 - Busca por termos no Google;
 - Criação de Pastas;
-- Buscas no dicionário.
+- Buscas no dicionário;
+- Interação com aparência de chat.
 
 # Notas
 - A assitente tem foco no aprendizado em Python então, por favor, me critique;
