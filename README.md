@@ -1,4 +1,4 @@
-# Val
+# 🤖 Val
 ![](https://img.shields.io/github/license/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
