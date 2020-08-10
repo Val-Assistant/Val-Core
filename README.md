@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core)
 
-Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP. 
+Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP.
 <img class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=600px width=600px>
 
 # Observações:
@@ -25,7 +25,7 @@ pip install bs4
 pip install webbrowser
 ```
 # Python e PHP
-Para usá-la, você precisa do Python na versão 3.6 especificamente e o PHP na versão 5 para cima.
+Para usá-la, você precisa do Python na versão 3.6.
 
 # Como usá-la
 Para usá-la é muito simples: Clique no já instalado arquivo Start.bat e a inicie. Você apenas responde à suas perguntas naturalmente.
@@ -52,7 +52,7 @@ Atualmente, em sua versão 2.0.0.0, ela contém:
 - Interação com aparência de chat.
 
 # Notas
-- A assitente tem foco no aprendizado em Python então, por favor, me critique;
+- A assitente tem foco no aprendizado em Python e PHP, então, por favor, me critique;
 - Seu uso para fins não lucrativos é liberado a todos, portanto para mais informações acesse o arquivo [LICENSE](https://github.com/caue-alves/Assitente-Pessoal/blob/master/LICENSE.md);
 - Novas atualizações virão em breve com uma interface visual e muito mais funções ;)
 
