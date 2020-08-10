@@ -3,7 +3,6 @@
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core)
-![](https://img.shields.io/github/followers/Caue-Alves?style=social)
 
 Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP.
 <img class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=600px width=600px>
@@ -80,3 +79,12 @@ A assistente é gravada em:
 - Batch;
 - CSS;
 - Javascript.
+
+# Contribuidores
+Por favor, siga meu perfil no GitHub, Cauê Alves 
+
+![](https://img.shields.io/github/followers/Caue-Alves?style=social)
+
+E Thierry
+
+![](https://img.shields.io/github/followers/Thipiguen137?style=social)
