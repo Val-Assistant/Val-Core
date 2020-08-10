@@ -81,10 +81,10 @@ A assistente é gravada em:
 - Javascript.
 
 # Contribuidores
-Por favor, siga meu perfil no GitHub, Cauê Alves 
+Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
 
 ![](https://img.shields.io/github/followers/Caue-Alves?style=social)
 
-E Thierry
+E [Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
