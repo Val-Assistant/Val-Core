@@ -78,7 +78,8 @@ A assistente é gravada em:
 - HTML;
 - Batch;
 - CSS;
-- Javascript.
+- Javascript;
+- MySQL.
 
 # Contribuidores
 Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
@@ -88,3 +89,5 @@ Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alve
 E [Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
+
+Desde já agradeço!
