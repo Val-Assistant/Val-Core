@@ -23,8 +23,8 @@ def previsao_do_tempo():
     clima = site.json()
     temperatura = clima['main']['temp']
     fell = clima['main']['feels_like']
-    descrição = clima['weather'][0]['description']
-    audio.cria_audio(f"Temperatura atual: {temperatura} graus, sensação térmica de {fell} graus, situação atual do céu {descrição}")
+    descricao = clima['weather'][0]['description']
+    audio.cria_audio(f"Temperatura atual: {temperatura} graus, sensação térmica de {fell} graus, situação atual do céu {descricao}")
 
 def covid_cases():
     site = get('https://covid19-brazil-api.now.sh/api/report/v1')
@@ -46,7 +46,7 @@ def dicio(respost):
     termo = respost[index + 3 : ]
     cr.open_new_tab(f"https://www.dicio.com.br/pesquisa.php?q={termo}")
     if termo == -1:
-        print("termo não encontrado")
+        audio.cria_audio("termo não encontrado")
 
 def wiki(respost):
     respost1 = respost.upper()

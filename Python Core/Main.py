@@ -19,6 +19,8 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 """
 
 import random, re, audio, json_conv, web
+import agenda, piada, conv, imc, conversor
+import renom, grafico, os_file
 import is_in
 from datetime import datetime
 src = open('nome.csv', mode='a')
@@ -42,6 +44,7 @@ possibilidades = [f"Olá {nome}, como vai?",
     f"Olá {nome}, que dia lindo para fazer uns uptades em mim hehe",
     "Iae brô, tudo na paz?"
 ]
+
 audio.cria_audio(possibilidades[random.randrange(0, len(possibilidades))])
 resposta = ""
 
@@ -50,34 +53,33 @@ find = ["Sun", "Sat"]
 contador = 0
 awnser = ""
 
+
 while contador == 0:
     json_conv.inicializa()
     hoje1 = datetime.today()
     hoje = hoje1.strftime("%a/%d/%m/%Y %H:%M")
     dia_da_semana = hoje1.strftime("%a")
-    json_conv.converte_json({'str': "Que função você gostaria de usar?"})
+    json_conv.converte_json({'str': f"Olá {nome}, que função você gostaria de usar?"})
     hoje1 = hoje[15 : ]
     respost = json_conv.carrega_json("input")
+    if respost != "": print(respost)
 
     if dia_da_semana in dias_da_semana:
-        import agenda
         if is_in.str("agenda", respost):
             agenda.agenda(respost, dia_da_semana)
+
     elif is_in.str(dia_da_semana, find):
         print(f"{resposta} não tem aula, é fim de semana!")
     else:
         print("Dia não encontrado")
 
     if is_in.str("PIADA", respost) or is_in.str("PIADAS", respost):
-        import piada
         piada.piada()
 
     elif is_in.str("CALCULADORA", respost) or is_in.str("CALCULAR", respost) or not is_in.str("CALCULADORA", respost) or not is_in.str("CALCULAR", respost):
-        import conv
         conv.calc(respost)
 
     elif is_in.str("IMC", respost):
-        import imc
         imc.f(respost)
 
     elif is_in.str("ALARME", respost):
@@ -100,10 +102,9 @@ while contador == 0:
         break
 
     if is_in.str("CONVERSOR",respost):
-        import conversor
         conversor.conve()
+
     if is_in.str("RENOMEAR", respost):
-        import renom
         renom.renomear(respost)
 
     if is_in.str("NOTÍCIA", respost):
@@ -114,14 +115,11 @@ while contador == 0:
 
     if is_in.str("PREVISÃO", respost) and is_in.str("TEMPO", respost):
         web.previsao_do_tempo()
-        contador = 0
 
     if is_in.str("ADICIONE", respost):
-        import grafico
         grafico.adiciona_nota()
 
     if is_in.str("GRÁFICO", respost):
-        import grafico
         grafico.grafico()
 
     if is_in.str("CASOS DE COVID", respost):
@@ -137,7 +135,6 @@ while contador == 0:
         web.wiki(respost)
 
     if is_in.str("CRIE", respost) and is_in.str("PASTA", respost):
-        import os_file
         os_file.mkd(respost)
 
     if is_in.str("STACK", respost) and is_in.str("OVERFLOW", respost):
@@ -145,8 +142,3 @@ while contador == 0:
 
     if is_in.str("YOUTUBE", respost):
         web.youtube(respost)
-
-
-
-
-

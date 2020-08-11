@@ -2,7 +2,8 @@ import is_in
 import audio
 
 def conve():
-    C1 = input("Bem vindo à função de conversor, o que você deseja converter? ")
+    print("Bem vindo à função de conversor, o que você deseja converter?" )
+    C1 = ""
     if "TEMPERATURA" in C1.upper():
         qual = input("Qual é a primeira medida? ")
         qual2 = input("Qual é a segunda medida? ")
@@ -14,6 +15,7 @@ def conve():
 
         if is_in.str("FARENHEIT", qual):
             first = "FARENHEIT"
+
         elif is_in.str("FARENHEIT", qual2):
             sec = "FARENHEIT"
 

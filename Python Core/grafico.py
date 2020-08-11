@@ -21,10 +21,10 @@ def grafico():
     plt.show()
 
 def adiciona_nota():
-    audio.cria_audio("Olá de que matéria você gostaria de inserir sua nota?")
-    inp = input()
-    audio.cria_audio("Qual é a nota?")
-    inpt = input()
+    print("Olá de que matéria você gostaria de inserir sua nota?")
+    inp = ""
+    print("Qual é a nota?")
+    inpt = ""
     w.write(f"{inp}\n")
     ydo.write(f"{inpt}\n")
     w.flush()

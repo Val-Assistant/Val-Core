@@ -1,6 +1,3 @@
-import audio
-import re
-
 def renomear(respost):
     arq = open('nome.csv', mode='w')
     index = respost.find(" ")
