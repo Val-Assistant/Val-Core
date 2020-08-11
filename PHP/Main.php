@@ -9,8 +9,6 @@ try {
     echo "<br>Erro no carregamento do JSON<br>";
 }
 
-
-
 ?>
 <html>
     <head>
@@ -24,6 +22,7 @@ try {
         <li><a href = "https://github.com/caue-alves/Assitente-Pessoal">Repositório no GitHub</a></li>
         <li><a href = "home.html">Home</a></li>
         <li><a href = "Main.php">Assitente</a></li>
+        <li><a href="Account.php">Conta</a></li>
         <script src="Main.js"></script>
     </header>
     <main>
