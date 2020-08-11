@@ -1,0 +1,73 @@
+html {
+    background-color: GhostWhite;
+}
+
+header {
+    position: fixed;
+    background-color: rebeccapurple;
+    width: 17%;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.head {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 20%;
+}
+
+header a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.gmail, .nome, .senha {
+    margin-right: 1em;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 8em;
+    border-radius: 10px;
+}
+
+.ft-generica {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+.img {
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    padding-top: 2em;
+    margin-bottom: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+#gmail, #nome, #senha {
+    justify-content: center;
+    display: flex;
+}
+
+#but {
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+}
