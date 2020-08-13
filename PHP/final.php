@@ -12,6 +12,6 @@ $array = [
 ];
 
 $array_formatado = json_encode($array);
-$arqj = fopen('C:\Users\evers\PycharmProjects\Assitente\ac.json');
+$arqj = fopen('C:\Users\evers\PycharmProjects\Assitente\ac.json', 'w');
 fwrite($arqj, $array_formatado);
 ?>
