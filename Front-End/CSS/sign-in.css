@@ -1,7 +1,3 @@
-html {
-    background-color: GhostWhite;
-}
-
 header {
     position: fixed;
     background-color: rebeccapurple;
@@ -26,12 +22,18 @@ header a {
     color: white;
 }
 
-.gmail, .nome, .senha {
-    margin-right: 1em;
-    height: 50px;
-    width: 500px;
-    margin-bottom: 8em;
-    border-radius: 10px;
+.title {
+    padding-top: 2em;
+    margin-bottom: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+.img {
+    justify-content: center;
+    display: flex;
 }
 
 .ft-generica {
@@ -42,21 +44,15 @@ header a {
     margin-top: 2em;
 }
 
-.img {
-    justify-content: center;
-    display: flex;
+.gmail, .senha {
+    margin-right: 1em;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 8em;
+    border-radius: 10px;
 }
 
-.title {
-    padding-top: 2em;
-    margin-bottom: 3em;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 60px;
-}
-
-#gmail, #nome, #senha {
+#gmail, #senha {
     justify-content: center;
     display: flex;
 }
@@ -76,4 +72,8 @@ header a {
 .button {
     justify-content: center;
     display: flex;
+}
+
+form p {
+    text-align: center;
 }
