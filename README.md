@@ -29,6 +29,19 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
+caso utilize linux execute o arquivo `./setup.sh` no terminal ou vinha linha de comando:
+```
+pip3 install speech_recognition
+pip3 install os
+pip3 install pyaudio
+pip3 install gtts
+pip3 install playsound
+pip3 install matplotlib
+pip3 install requests
+pip3 install numpy
+pip3 install bs4
+pip3 install webbrowser
+```
 # Python e PHP
 Para usá-la, você precisa do Python na versão 3.6.
 
