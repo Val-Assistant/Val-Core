@@ -54,7 +54,8 @@ Atualmente, em sua versão 2.0.0.0, ela contém:
 - Busca por termos no Google;
 - Criação de Pastas;
 - Buscas no dicionário;
-- Interação com aparência de chat.
+- Interação com aparência de chat;
+- Tecnologia de Conta e Login
 
 # Notas
 - A assitente tem foco no aprendizado em Python e PHP, então, por favor, me critique;
