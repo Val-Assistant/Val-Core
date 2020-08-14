@@ -29,7 +29,7 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
-caso utilize linux execute o arquivo `./setup.sh` no terminal ou vinha linha de comando:
+caso utilize linux execute o arquivo `./setup.sh` no terminal ou via linha de comando:
 ```
 pip3 install speech_recognition
 pip3 install os
