@@ -29,6 +29,12 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
+
+e depois rode:
+
+```
+git pull https://github.com/Val-Assistant/Val-Core.git
+``` 
 # Python e PHP
 Para usá-la, você precisa do Python na versão 3.6.
 
