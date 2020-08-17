@@ -35,6 +35,9 @@ e depois rode:
 ```
 git pull https://github.com/Val-Assistant/Val-Core.git
 ``` 
+
+Ou baixe o arquivo .zip
+
 # Python e PHP
 Para usá-la, você precisa do Python na versão 3.6.
 
@@ -75,6 +78,29 @@ A assistente utiliza as bibliotecas:
 - [OpenWeather](https://openweathermap.org/guide);
 - [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples);
 - [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+- [is_in]().
+- [gTTs](https://gtts.readthedocs.io/en/latest/);
+- [os](https://docs.python.org/3/library/os.html);
+- [pyaudio](http://people.csail.mit.edu/hubert/pyaudio/);
+- [playsound](https://github.com/TaylorSMarks/playsound);
+- [matplotlib](https://matplotlib.org/);
+- [request](https://requests.readthedocs.io/en/master/) ;
+- [COVID - Brazil API](https://covid19-brazil-api.now.sh/);
+- [Datetime](https://docs.python.org/3/library/datetime.html);
+- [webbrowser](https://docs.python.org/3.6/library/webbrowser.html);
+- [Time](https://docs.python.org/3/library/time.html);
+- [Json](https://docs.python.org/3/library/json.html).
+
+# Conexões
+A Assitente necessita de internet para invocar as bibliotecas:
+- [webbrowser](https://docs.python.org/3.6/library/webbrowser.html), [COVID - Brazil API](https://covid19-brazil-api.now.sh/); 
+- [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples), [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+- [OpenWeather](https://openweathermap.org/guide). 
+- [request](https://requests.readthedocs.io/en/master/);
+- [gTTs](https://gtts.readthedocs.io/en/latest/);
+- [playsound](https://github.com/TaylorSMarks/playsound);
+
+Por isso, para seu funcionamento integral, certifique-se de estar conctado à internet
 
 # Objetivos
 - [x] Começar a interface visual;
