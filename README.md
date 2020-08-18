@@ -9,14 +9,14 @@
 ![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core)
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Val-Assistant/Val-Core" />
 
-Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP.
+Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens `Python` e `PHP`.
 
 
 # Observações:
 A atual versão já é estável.
 
 # Preparar ambiente
-Para rodar a assitente, instale em sua máquina através do cmd ou execute o arquivo Setup.bat:
+Para rodar a assitente, instale em sua máquina através do `cmd` ou execute o arquivo `Setup.bat` os seguintes comandos:
 ```
 pip install speech_recognition
 pip install os
@@ -30,23 +30,23 @@ pip install bs4
 pip install webbrowser
 ```
 
-e depois rode:
+e depois rode em seu `Git Bash`:
 
 ```
-git pull https://github.com/Val-Assistant/Val-Core.git
+git pull https://github.com/Val-Assistant/Val-Core.git master
 ``` 
 
 Ou baixe o arquivo .zip
 
 # Python e PHP
-Para usá-la, você precisa do Python na versão 3.6.
+Para usá-la, você precisa do `Python` na versão `3.6`.
 
 # Como usá-la
-Para usá-la é muito simples: Clique no já instalado arquivo Start.bat e a inicie. Você apenas responde à suas perguntas naturalmente.
+Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a inicie. Você apenas responde à suas perguntas naturalmente.
 
 # Código
-Crie uma pasta com todos os arquivos e entre na pasta através do console. O Python conseguirá importar todas as funções apenas se estiverem em uma pasta
-Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo nome.txt e ela o perguntará seu nome novamente.
+Crie uma pasta com todos os arquivos e entre na pasta através do console. O `Python` conseguirá importar todas as funções apenas se estiverem em uma pasta
+Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente.
 
 # Funcões
 Atualmente, em sua versão 2.0.0.0, ela contém:
@@ -111,13 +111,13 @@ Por isso, para seu funcionamento integral, certifique-se de estar conctado à in
 
 # Linguagens
 A assistente é gravada em:
-- Python;
-- PHP;
-- HTML;
-- Batch;
-- CSS;
-- Javascript;
-- MySQL.
+- `Python`;
+- `PHP`;
+- `HTML`;
+- `Batch`;
+- `CSS`;
+- `Javascript`;
+- `MySQL`.
 
 # Contribuidores
 Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
