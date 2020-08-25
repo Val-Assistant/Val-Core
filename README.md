@@ -36,7 +36,7 @@ e depois rode em seu `Git Bash`:
 git pull https://github.com/Val-Assistant/Val-Core.git master
 ``` 
 
-Ou baixe o arquivo .zip
+Ou baixe o arquivo [.zip](https://github.com/caue-alves/Val-Assistant/Val-Core/archive/master.zip")
 
 # Python e PHP
 Para usá-la, você precisa do `Python` na versão `3.6`.
