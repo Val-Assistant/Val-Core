@@ -1,3 +1,5 @@
+<?php
+?>
 <html>
     <head>
         <link rel="stylesheet" href="sign-in.css">
