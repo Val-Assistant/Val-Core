@@ -128,4 +128,4 @@ E [Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
 
-Desde já agradeço!💜 Não esqueça de dar uma estrela ⭐
+Desde já agradeço!💜 Não esqueça de dar uma estrela **⭐**
