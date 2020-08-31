@@ -1,10 +1,8 @@
-<?php
-?>
 <html>
     <head>
         <meta charset='utf-8'>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="Account.css">
+        <link rel="stylesheet" href="../Front-End/CSS/reset.css">
+        <link rel="stylesheet" href="../Front-End/CSS/Account.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
     </head>
     <header>

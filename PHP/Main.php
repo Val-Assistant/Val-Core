@@ -12,18 +12,22 @@ try {
 ?>
 <html>
     <head>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../Front-End/CSS/reset.css">
+        <link rel="stylesheet" href="../Front-End/CSS/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
     </head>
     <header>
         <img class="head" src="https://github.com/Val-Assistant/Val-Core/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" href="home.html">
         <li><a href = "https://github.com/caue-alves/Assitente-Pessoal">Repositório no GitHub</a></li>
-        <li><a href = "home.html">Home</a></li>
+        <li><a href = "../Front-End/HTML/home.html">Home</a></li>
         <li><a href = "Main.php">Assitente</a></li>
         <li><a href="sign-in.php">Conta</a></li>
-        <script src="Main.js"></script>
+        <li class="datetime">Hora</li>
+        <li class = 'minutozz'>minutos</li>
+        <script src="../Front-End/js/Main.js"></script>
+        <script src="../Front-End/js/date.js"></script>
     </header>
     <main>
         <div class = "all-content" style="overflow-y: auto;">
