@@ -117,7 +117,9 @@ A assistente é gravada em:
 - `Batch`;
 - `CSS`;
 - `Javascript`;
-- `MySQL`.
+- `MySQL`;
+- `Typescript`;
+- `NodeJS`.
 
 # Contribuidores
 Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
