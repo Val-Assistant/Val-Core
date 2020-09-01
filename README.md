@@ -1,4 +1,4 @@
-<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px>
+<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px/>
 
 # 🤖 Val 
 
