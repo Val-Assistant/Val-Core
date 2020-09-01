@@ -46,7 +46,13 @@ Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a i
 
 # Código
 Crie uma pasta com todos os arquivos e entre na pasta através do console. O `Python` conseguirá importar todas as funções apenas se estiverem em uma pasta
-Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente.
+Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente. Depois abra um ervidor Apache em seu serviço de host ou rode o comando `php -S localhost:8000`
+na pasta Val
+
+Então entre na `url`:
+```
+localhost:/8000/PHP/Main.php
+```
 
 # Funcões
 Atualmente, em sua versão 2.0.0.0, ela contém:
