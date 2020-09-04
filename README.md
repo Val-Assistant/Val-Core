@@ -130,12 +130,16 @@ A assistente é gravada em:
 - `JSON`
 
 # Contribuidores
-Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
+Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves),
 
 ![](https://img.shields.io/github/followers/Caue-Alves?style=social)
 
-E [Thipiguen137](https://github.com/Thipiguen137)
+[Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
+
+e [solenya1](https://github.com/solenya1)
+
+![](https://img.shields.io/github/followers/solenya1?style=social)
 
 Desde já agradeço!💜 Não esqueça de dar uma estrela!**⭐**
