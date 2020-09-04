@@ -25,7 +25,7 @@ Class Json_file
     {
         $dicio = ["input" => $input];
         $dicio_json = json_encode($dicio);
-        $arqj = fopen('C:\Users\evers\PycharmProjects\Assitente\input.json', 'w');
+        $arqj = fopen('../JSON & CSV/input.json', 'w');
         fwrite($arqj, $dicio_json);
         
     }
