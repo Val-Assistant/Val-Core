@@ -123,9 +123,10 @@ A assistente é gravada em:
 - `Batch`;
 - `CSS`;
 - `Javascript`;
-- `MySQL`;
 - `Typescript`;
-- `NodeJS`.
+- `Node.js`;
+- `PyDev ToolKit`;
+- `JSON`
 
 # Contribuidores
 Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
