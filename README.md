@@ -59,19 +59,19 @@ localhost:/8000/PHP/Main.php
 Atualmente, em sua versão 2.0.0.0, ela contém:
 - Agenda;
 - Calculadora;
-- Calculadora de IMC;
-- Feed de notícias;
+- Calculadora de `IMC`;
+- `Feed` de notícias;
 - Piadas;
-- Fala de acordo com a biblioteca Speech;
-- Roda no Python 3.6;
+- Fala de acordo com a biblioteca `Speech`;
+- Roda no Python `3.6`;
 - Nome customizável; 
 - Gráfico de Notas customizável;
-- Casos de Covid em tempo real;
-- Busca por termos no Google;
+- Casos de `Covid` em tempo real;
+- Busca por termos no `Google`;
 - Criação de Pastas;
 - Buscas no dicionário;
-- Interação com aparência de chat;
-- Tecnologia de Conta e Login
+- Interação com aparência de `chat`;
+- Tecnologia de `Conta` e `Login`.
 
 # Notas
 - A assitente tem foco no aprendizado em Python e PHP, então, por favor, me critique;
