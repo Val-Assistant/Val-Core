@@ -29,6 +29,19 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
+caso utilize linux execute o arquivo `./setup.sh` no terminal ou vinha linha de comando:
+```
+pip3 install speech_recognition
+pip3 install os
+pip3 install pyaudio
+pip3 install gtts
+pip3 install playsound
+pip3 install matplotlib
+pip3 install requests
+pip3 install numpy
+pip3 install bs4
+pip3 install webbrowser
+```
 # Como usá-la
 Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a inicie. Você apenas responde à suas perguntas naturalmente.
 
