@@ -29,18 +29,6 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
-
-e depois rode em seu `Git Bash`:
-
-```
-git pull https://github.com/Val-Assistant/Val-Core.git master
-``` 
-
-Ou baixe o arquivo [.zip](https://github.com/caue-alves/Val-Assistant/Val-Core/archive/master.zip")
-
-# Pré-requisitos
-Para usá-la, você precisa do `Python` na versão `3.6` e `PHP` na versão 5 ou mais ou um Serviço de `localhost` como o `XAMPP` ou o `WAMPP`
-
 # Como usá-la
 Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a inicie. Você apenas responde à suas perguntas naturalmente.
 
