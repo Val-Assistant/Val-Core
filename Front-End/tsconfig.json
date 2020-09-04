@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module": "system"
+    },
+    "include": [
+        "ts/*"
+    ]
+}

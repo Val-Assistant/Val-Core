@@ -1,4 +1,4 @@
-<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px>
+<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px/>
 
 # 🤖 Val 
 
@@ -9,14 +9,14 @@
 ![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core)
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Val-Assistant/Val-Core" />
 
-Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens Python e PHP.
+Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens `Python` e `PHP`.
 
 
 # Observações:
 A atual versão já é estável.
 
 # Preparar ambiente
-Para rodar a assitente, instale em sua máquina através do cmd ou execute o arquivo Setup.bat:
+Para rodar a assitente, instale em sua máquina através do `cmd` ou execute o arquivo `Setup.bat` os seguintes comandos:
 ```
 pip install speech_recognition
 pip install os
@@ -29,28 +29,18 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
-caso utilize linux execute o arquivo `./setup.sh` no terminal ou via linha de comando:
-```
-pip3 install speech_recognition
-pip3 install os
-pip3 install pyaudio
-pip3 install gtts
-pip3 install playsound
-pip3 install matplotlib
-pip3 install requests
-pip3 install numpy
-pip3 install bs4
-pip3 install webbrowser
-```
-# Python e PHP
-Para usá-la, você precisa do Python na versão 3.6.
-
 # Como usá-la
-Para usá-la é muito simples: Clique no já instalado arquivo Start.bat e a inicie. Você apenas responde à suas perguntas naturalmente.
+Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a inicie. Você apenas responde à suas perguntas naturalmente.
 
 # Código
-Crie uma pasta com todos os arquivos e entre na pasta através do console. O Python conseguirá importar todas as funções apenas se estiverem em uma pasta
-Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo nome.txt e ela o perguntará seu nome novamente.
+Crie uma pasta com todos os arquivos e entre na pasta através do console. O `Python` conseguirá importar todas as funções apenas se estiverem em uma pasta
+Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente. Depois abra um ervidor Apache em seu serviço de host ou rode o comando `php -S localhost:8000`
+na pasta Val
+
+Então entre na `url`:
+```
+localhost:/8000/PHP/Main.php
+```
 
 # Funcões
 Atualmente, em sua versão 2.0.0.0, ela contém:
@@ -82,6 +72,29 @@ A assistente utiliza as bibliotecas:
 - [OpenWeather](https://openweathermap.org/guide);
 - [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples);
 - [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+- [is_in]().
+- [gTTs](https://gtts.readthedocs.io/en/latest/);
+- [os](https://docs.python.org/3/library/os.html);
+- [pyaudio](http://people.csail.mit.edu/hubert/pyaudio/);
+- [playsound](https://github.com/TaylorSMarks/playsound);
+- [matplotlib](https://matplotlib.org/);
+- [request](https://requests.readthedocs.io/en/master/) ;
+- [COVID - Brazil API](https://covid19-brazil-api.now.sh/);
+- [Datetime](https://docs.python.org/3/library/datetime.html);
+- [webbrowser](https://docs.python.org/3.6/library/webbrowser.html);
+- [Time](https://docs.python.org/3/library/time.html);
+- [Json](https://docs.python.org/3/library/json.html).
+
+# Conexões
+A Assitente necessita de internet para invocar as bibliotecas:
+- [webbrowser](https://docs.python.org/3.6/library/webbrowser.html), [COVID - Brazil API](https://covid19-brazil-api.now.sh/); 
+- [Speech](https://github.com/Uberi/speech_recognition/tree/master/examples), [Beautifoul Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+- [OpenWeather](https://openweathermap.org/guide). 
+- [request](https://requests.readthedocs.io/en/master/);
+- [gTTs](https://gtts.readthedocs.io/en/latest/);
+- [playsound](https://github.com/TaylorSMarks/playsound);
+
+Por isso, para seu funcionamento integral, certifique-se de estar conctado à internet
 
 # Objetivos
 - [x] Começar a interface visual;
@@ -92,13 +105,16 @@ A assistente utiliza as bibliotecas:
 
 # Linguagens
 A assistente é gravada em:
-- Python;
-- PHP;
-- HTML;
-- Batch;
-- CSS;
-- Javascript;
-- MySQL.
+- `Python`;
+- `PHP`;
+- `HTML`;
+- `Batch`;
+- `CSS`;
+- `Javascript`;
+- `Typescript`;
+- `Node.js`;
+- `PyDev ToolKit`;
+- `JSON`
 
 # Contribuidores
 Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
@@ -109,4 +125,4 @@ E [Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
 
-Desde já agradeço!
+Desde já agradeço!💜 Não esqueça de dar uma estrela!**⭐**

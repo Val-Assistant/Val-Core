@@ -1,4 +1,3 @@
-  
 pip install speech_recognition
 pip install os
 pip install pyaudio
