@@ -1,4 +1,4 @@
-<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px>
+<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px/>
 
 # 🤖 Val 
 
@@ -29,42 +29,49 @@ pip install numpy
 pip install bs4
 pip install webbrowser
 ```
-
-e depois rode em seu `Git Bash`:
-
+caso utilize linux execute o arquivo `./setup.sh` no terminal ou vinha linha de comando:
 ```
-git pull https://github.com/Val-Assistant/Val-Core.git master
-``` 
-
-Ou baixe o arquivo [.zip](https://github.com/caue-alves/Val-Assistant/Val-Core/archive/master.zip")
-
-# Python e PHP
-Para usá-la, você precisa do `Python` na versão `3.6`.
-
+pip3 install speech_recognition
+pip3 install os
+pip3 install pyaudio
+pip3 install gtts
+pip3 install playsound
+pip3 install matplotlib
+pip3 install requests
+pip3 install numpy
+pip3 install bs4
+pip3 install webbrowser
+```
 # Como usá-la
 Para usá-la é muito simples: Clique no já instalado arquivo `Start.bat` e a inicie. Você apenas responde à suas perguntas naturalmente.
 
 # Código
 Crie uma pasta com todos os arquivos e entre na pasta através do console. O `Python` conseguirá importar todas as funções apenas se estiverem em uma pasta
-Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente.
+Se você quiser deletar seu nome e reiniciá-la, apenas delete o arquivo `nome.txt` e ela o perguntará seu nome novamente. Depois abra um ervidor Apache em seu serviço de host ou rode o comando `php -S localhost:8000`
+na pasta Val
+
+Então entre na `url`:
+```
+localhost:/8000/PHP/Main.php
+```
 
 # Funcões
 Atualmente, em sua versão 2.0.0.0, ela contém:
 - Agenda;
 - Calculadora;
-- Calculadora de IMC;
-- Feed de notícias;
+- Calculadora de `IMC`;
+- `Feed` de notícias;
 - Piadas;
-- Fala de acordo com a biblioteca Speech;
-- Roda no Python 3.6;
+- Fala de acordo com a biblioteca `Speech`;
+- Roda no Python `3.6`;
 - Nome customizável; 
 - Gráfico de Notas customizável;
-- Casos de Covid em tempo real;
-- Busca por termos no Google;
+- Casos de `Covid` em tempo real;
+- Busca por termos no `Google`;
 - Criação de Pastas;
 - Buscas no dicionário;
-- Interação com aparência de chat;
-- Tecnologia de Conta e Login
+- Interação com aparência de `chat`;
+- Tecnologia de `Conta` e `Login`.
 
 # Notas
 - A assitente tem foco no aprendizado em Python e PHP, então, por favor, me critique;
@@ -117,15 +124,23 @@ A assistente é gravada em:
 - `Batch`;
 - `CSS`;
 - `Javascript`;
-- `MySQL`.
+- `Typescript`;
+- `Node.js`;
+- `PyDev ToolKit`;
+- `JSON`
 
 # Contribuidores
-Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves)
+Por favor, siga meu perfil no GitHub, [Cauê Alves](https://github.com/caue-alves),
 
 ![](https://img.shields.io/github/followers/Caue-Alves?style=social)
 
-E [Thipiguen137](https://github.com/Thipiguen137)
+[Thipiguen137](https://github.com/Thipiguen137)
 
 ![](https://img.shields.io/github/followers/Thipiguen137?style=social)
 
-Desde já agradeço!💜 
+e [solenya1](https://github.com/solenya1)
+
+![](https://img.shields.io/github/followers/solenya1?style=social)
+
+Desde já agradeço!💜 Não esqueça de dar uma estrela!**⭐**
+
