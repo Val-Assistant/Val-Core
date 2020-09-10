@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/license/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
-![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core)
+![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core?color=blueviolet)
 ![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core)
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Val-Assistant/Val-Core" />
 
