@@ -6,7 +6,7 @@
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core?color=sucess)
 ![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core?color=blueviolet)
-![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core)
+![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core?color=ff69b4)
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Val-Assistant/Val-Core" />
 
 Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens `Python` e `PHP`.
