@@ -142,4 +142,4 @@ e [solenya1](https://github.com/solenya1)
 
 ![](https://img.shields.io/github/followers/solenya1?style=social)
 
-Desde já agradeço!💜 Não esqueça de dar uma estrela!**⭐**
+Desde já agradeço! **💜** Não esqueça de dar uma estrela! **⭐**
