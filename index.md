@@ -1,12 +1,12 @@
-<img align="right" class = "img" src="img/Val.png" height=300px width=300px/>
+<img align="right" class = "img" src="https://github.com/caue-alves/Val-Assistente-Pessoal/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" height=300px width=300px/>
 
 # 🤖 Val 
 
 ![](https://img.shields.io/github/license/Val-Assistant/Val-Core)
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Core)
-![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core)
-![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core)
-![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core)
+![](https://img.shields.io/github/languages/top/Val-Assistant/Val-Core?color=sucess)
+![](https://img.shields.io/github/repo-size/Val-Assistant/Val-Core?color=blueviolet)
+![](https://img.shields.io/github/commit-activity/m/Val-Assistant/Val-Core?color=ff69b4)
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Val-Assistant/Val-Core" />
 
 Assistente pessoal com foco no aprendizado e no aprofundamento nas linguagens `Python` e `PHP`.
@@ -142,5 +142,4 @@ e [solenya1](https://github.com/solenya1)
 
 ![](https://img.shields.io/github/followers/solenya1?style=social)
 
-Desde já agradeço!💜 Não esqueça de dar uma estrela!**⭐**
-
+Desde já agradeço! **💜** Não esqueça de dar uma estrela! **⭐**
